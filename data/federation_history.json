@@ -1,0 +1,7418 @@
+[
+  {
+    "timestamp": "2025-12-15T18:01:40.295695Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:01:40.297779Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:01:40.298329Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:05.725121Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:05.728766Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:05.729428Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:12.879320Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:12.881765Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:12.882656Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:18.944559Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:18.946714Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:18.947258Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:26.120322Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:26.122782Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:26.126412Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:36.123864Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:36.126372Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:36.130134Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:46.121950Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:46.124406Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:46.127885Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:56.123510Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:56.126525Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:03:56.129935Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:06.121337Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:06.123805Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:06.127401Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:16.123695Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:16.126733Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:16.128629Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:26.124010Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:26.127070Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:26.130434Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:36.124094Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:36.127285Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:36.130620Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:46.121528Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:46.124099Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:46.127869Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:56.124336Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:56.127714Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:04:56.131406Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:06.123893Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:06.127166Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:06.130803Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:16.122820Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:16.126284Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:16.129866Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:26.123183Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:26.126613Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:26.129926Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:36.122451Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:36.128704Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:05:36.143777Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.180637Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.183913Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.187682Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.198635Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.201593Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:13.208957Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:23.174768Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:23.191432Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:23.195869Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:33.174307Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:33.177593Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:13:33.181365Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:03.226159Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:03.230053Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:03.236977Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:11.409252Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:11.413375Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:11.417223Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:13.176891Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:13.180604Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:13.184614Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:23.174774Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.95,
+    "trust_score": 0.92,
+    "last_ledger": "block-12345",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:23.178670Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:23.182246Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:26.623298Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.97,
+    "trust_score": 0.93,
+    "last_ledger": "block-1765811666",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:33.175728Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.97,
+    "trust_score": 0.93,
+    "last_ledger": "block-1765811666",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:33.179501Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:33.183042Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:43.176326Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.97,
+    "trust_score": 0.93,
+    "last_ledger": "block-1765811666",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:43.180091Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:14:43.183619Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:02.263743Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.97,
+    "trust_score": 0.93,
+    "last_ledger": "block-1765811666",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:02.266907Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:02.270575Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:02.309521Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.99,
+    "trust_score": 0.9400000000000001,
+    "last_ledger": "block-1765812062",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:37.025283Z",
+    "node_id": "node-us-1",
+    "sync_health": 0.99,
+    "trust_score": 0.9400000000000001,
+    "last_ledger": "block-1765812062",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:37.029109Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:37.033697Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:21:37.090062Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9500000000000001,
+    "last_ledger": "block-1765812097",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.222543Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9500000000000001,
+    "last_ledger": "block-1765812097",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.226053Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.229637Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.235182Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9500000000000001,
+    "last_ledger": "block-1765812097",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.238705Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:35.242671Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:37.821899Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:37.828482Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:37.837893Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.88,
+    "trust_score": 0.85,
+    "last_ledger": "block-12340",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:37.852227Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:40.006237Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:40.013147Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:40.016313Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:40.019810Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.91,
+    "trust_score": 0.89,
+    "last_ledger": "block-12342",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:41.390927Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:41.397992Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:41.401345Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:41.405149Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:45.213707Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:45.219725Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:45.223302Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:55.219039Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:55.224024Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:40:55.229395Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:05.217922Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:05.222089Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:05.227023Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:15.216989Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:15.221213Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:15.225088Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:25.214485Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:25.218489Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:25.222448Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:35.215785Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:35.220264Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:35.224512Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:45.213751Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:45.217395Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:45.221060Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:55.214118Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:55.218179Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:41:55.223036Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:05.215927Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:05.219928Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:05.224721Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:15.270859Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:15.403197Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:15.407745Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:25.272235Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:25.276463Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:25.282839Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:35.274469Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:35.278605Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:35.284512Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:45.272874Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:45.277154Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:45.282972Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:55.274200Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:55.278542Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:42:55.283433Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:05.269622Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:05.273756Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:05.277716Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:15.267281Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:15.271235Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:15.275760Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:25.267888Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:25.272368Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:25.277157Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:35.269752Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:35.273848Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:35.277991Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:45.270122Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:45.274591Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:45.283204Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:55.271599Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:55.276063Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:43:55.282849Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:05.273610Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:05.278754Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:05.284107Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:15.272621Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:15.277265Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:15.281947Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:25.273121Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:25.277664Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:25.283473Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:35.272836Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:35.277595Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:35.282060Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:45.269453Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:45.274258Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:45.278772Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:55.269056Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:55.274348Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:44:55.279046Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:05.269550Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:05.274221Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:05.279223Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:15.270581Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:15.275093Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:15.280311Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:25.269752Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:25.274415Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:25.279389Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:35.272697Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:35.280016Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:35.285880Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:45.271865Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:45.276820Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:45.284924Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:55.271743Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:55.276552Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:45:55.282017Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:05.274110Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:05.279730Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:05.286490Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:15.273326Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:15.278645Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:15.283102Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:25.269854Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:25.275107Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:25.280393Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:35.270546Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:35.276259Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:35.281233Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:45.270772Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:45.276765Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:45.281792Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:55.270627Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:55.277188Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:46:55.282391Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:05.270992Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:05.275911Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:05.281371Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:15.271105Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:15.276205Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:15.281479Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:25.272419Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:25.278277Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:25.285151Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:35.269342Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:35.272876Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:35.275993Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:45.268982Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:45.273910Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:45.278643Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:55.273821Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:55.279353Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:47:55.284420Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:05.274850Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:05.280001Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:05.285587Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:15.270924Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:15.277451Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:15.283574Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:25.269647Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:25.276178Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:25.281835Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:35.270854Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:35.279124Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:35.284891Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:45.269837Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:45.276235Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:45.283309Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:55.271257Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:55.277617Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:48:55.284677Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:05.270347Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:05.275753Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:05.283026Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:15.271520Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:15.276587Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:15.281745Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:25.274575Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:25.280072Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:25.286609Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:35.274958Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:35.280783Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:35.287616Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:45.273249Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:45.281816Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:45.287276Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:55.270821Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:55.277250Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:49:55.282763Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:05.272612Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:05.278826Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:05.284440Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:15.270040Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:15.279097Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:15.284557Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:25.271831Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:25.277781Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:25.283942Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:35.272270Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:35.277915Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:35.284049Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:45.272206Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:45.278453Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:45.285944Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:55.273217Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:55.279967Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:50:55.288082Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:05.274909Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:05.281095Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:05.289899Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:15.273717Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:15.279935Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:15.286418Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.184089Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.195739Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.210857Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.237900Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.248343Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:23.257694Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:33.565598Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:33.582381Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:33.599531Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:43.081868Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:43.088925Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:43.094804Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:53.150869Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:53.157027Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:51:53.162810Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:03.095755Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:03.103073Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:03.109043Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:13.098014Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:13.105254Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:13.115884Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:23.101830Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:23.111495Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:23.120156Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:33.099554Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:33.106524Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:33.112340Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:43.099803Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:43.106683Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:43.112787Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:53.103625Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:53.112507Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:52:53.118122Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:03.101207Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:03.108142Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:03.114364Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:13.101597Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:13.109053Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:13.115665Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:23.102277Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:23.109157Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:23.115499Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:33.100746Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:33.108139Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:33.114373Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:43.101364Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:43.109230Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:43.115519Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.480287Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.490837Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.503613Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.514641Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.525667Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:48.532511Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:58.563582Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:58.569811Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:53:58.576257Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:02.097644Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:02.104887Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:02.111813Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:12.100811Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:12.108246Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:12.116626Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:21.621355Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:21.632961Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:21.641826Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:31.622144Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:31.629230Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:31.636065Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:41.623180Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:41.634134Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:41.646651Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:51.622412Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:51.630321Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:55:51.637294Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:01.620882Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:01.628151Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:01.635215Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:11.624196Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:11.632959Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:11.639303Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:21.620908Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:21.628412Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:21.635220Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:31.621610Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:31.629958Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:31.637920Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:41.623114Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:41.630845Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:41.638942Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:51.622270Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:51.630357Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:56:51.637136Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:01.622564Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:01.630589Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:01.637417Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:11.622252Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:11.628549Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:11.635362Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:21.622694Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:21.630752Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:21.637479Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:31.621788Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:31.630376Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:31.637099Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:41.622944Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:41.631073Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:41.637761Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:51.622032Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:51.630726Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:57:51.637563Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:01.621442Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:01.630299Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:01.637174Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:11.622762Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:11.630758Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:11.638999Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:21.622853Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:21.631279Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:21.639389Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:31.621933Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:31.632853Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:31.639963Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:41.622314Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:41.632995Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:41.641111Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:51.621952Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:51.632800Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:58:51.639754Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:01.621597Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:01.630220Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:01.637117Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:11.624206Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:11.632100Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:11.638952Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:21.622767Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:21.631798Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:21.638971Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:31.623319Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:31.632070Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:31.639888Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:41.624041Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:41.632261Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:41.640447Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:51.623214Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:51.631550Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T18:59:51.640926Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:01.624445Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:01.632332Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:01.641978Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:11.622045Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:11.630546Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:11.637765Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:21.621491Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:21.631195Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:21.638555Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:31.620669Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:31.629837Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:31.637146Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:41.628758Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:41.703118Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:41.725131Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:51.625593Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:51.635034Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:00:51.642666Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:01.622282Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:01.631237Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:01.638892Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:11.622798Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:11.631097Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:11.639446Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:21.624205Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:21.637983Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:21.648437Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:31.623386Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:31.632233Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:31.642574Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:41.626902Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:41.635494Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:41.643811Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:51.624940Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:51.633319Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:01:51.640790Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:01.622285Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:01.632966Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:01.641137Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:11.624911Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:11.634717Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:11.643101Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:21.623886Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:21.634446Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:21.641969Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:31.622526Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:31.632801Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:31.640243Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:41.623256Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:41.632187Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:41.639843Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:51.623032Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:51.632997Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:02:51.640816Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:01.624579Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:01.634407Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:01.642346Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:11.625576Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:11.634647Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:11.643293Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:21.624915Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:21.633620Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:21.642931Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:31.624287Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:31.632895Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:31.640718Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:41.625447Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:41.633912Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:41.642678Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:51.623193Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:51.634337Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:03:51.643072Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:01.623933Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:01.635033Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:01.646288Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:11.623649Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:11.633976Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:11.642385Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:21.625468Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:21.637217Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:21.645999Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:31.623393Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:31.633023Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:31.641597Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:41.625762Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:41.635410Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:41.643700Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:51.624954Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:51.634316Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:04:51.646167Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:05:01.623694Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:05:01.633383Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:05:01.643784Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:11.640263Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:11.652934Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:11.662418Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:21.728458Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:21.737561Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:21.746247Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:31.624681Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:31.634566Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:31.642908Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:41.625545Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:41.634833Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:41.643648Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:51.625751Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:51.634942Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:06:51.645186Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:21.629787Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:21.638746Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:21.647145Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:31.625837Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:31.634390Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:31.643722Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:41.626627Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:41.635552Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:41.646420Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:51.625295Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:51.634727Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:08:51.643449Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:01.625415Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:01.662881Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:01.673771Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:11.626900Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:11.637721Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:11.646404Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:21.625498Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:21.636320Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:21.644908Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:31.624755Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:31.636201Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:31.644652Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:41.625180Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:41.636073Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:41.644999Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:51.624995Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:51.635007Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:09:51.643669Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:01.624957Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:01.634723Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:01.643991Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:11.626884Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:11.638973Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:11.647723Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:21.624361Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:21.633096Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:21.641740Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:31.625558Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:31.633635Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:31.643652Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:41.625648Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:41.636798Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:41.646101Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:51.625939Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:51.637480Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:10:51.646396Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:01.626326Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:01.637286Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:01.645884Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:11.628262Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:11.641100Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:11.650181Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:21.624433Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:21.634614Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:21.643522Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:31.625415Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:31.636008Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:31.645108Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:41.627597Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:41.637557Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:41.646820Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:51.624206Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:51.633542Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:11:51.643479Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:01.625203Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:01.635372Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:01.644694Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:11.627073Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:11.638368Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:11.648841Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:21.624671Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:21.635282Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:21.644502Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:31.626389Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:31.639025Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:31.648694Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:41.627223Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:41.638304Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:41.647735Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:51.625060Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:51.636590Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:12:51.646180Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:01.626170Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:01.636774Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:01.649201Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:11.643853Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:11.714768Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:11.724923Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:21.625591Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:21.636759Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:21.646064Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:31.625940Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:31.636124Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:31.647001Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:41.627713Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:41.637922Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:41.648624Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:51.625985Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:51.636439Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:13:51.647373Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:01.626092Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:01.637205Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:01.646920Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:11.626893Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:11.638633Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:11.647924Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:21.625888Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:21.637263Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:21.647132Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:31.626154Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:31.637802Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:31.647985Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:41.626575Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:41.638555Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:41.648401Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:51.625510Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:51.636811Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:14:51.646534Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:01.625311Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:01.637081Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:01.646922Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:11.627467Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:11.638965Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:11.648546Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:21.627688Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:21.639539Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:21.650538Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:31.625674Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:31.636027Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:31.646974Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:41.628454Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:41.641710Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:41.655727Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:51.627083Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:51.638466Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:15:51.648951Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:01.626658Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:01.638630Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:01.649702Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:11.629174Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:11.640206Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:11.650370Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:21.729033Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:21.742088Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:21.752883Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:31.626173Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:31.637684Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:31.647447Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:41.627324Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:41.638462Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:41.649029Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:51.625372Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:51.636779Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:16:51.647677Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:01.626786Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:01.638888Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:01.648738Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:11.627326Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:11.638395Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:11.649442Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:21.626123Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:21.637693Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:21.647889Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:31.626194Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:31.638190Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:31.649795Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:41.627494Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:41.638834Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:41.648933Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:51.626638Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:51.638848Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:17:51.648923Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:01.626189Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:01.638206Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:01.648973Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:11.627406Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:11.639253Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:11.649904Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:21.625899Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:21.638112Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:21.648964Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:31.626410Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:31.638483Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:31.648737Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:41.626910Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:41.638468Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:41.650107Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:51.627815Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:51.639547Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:18:51.654049Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:01.627208Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:01.638959Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:01.650180Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:11.627691Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:11.639509Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:11.649827Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:21.627249Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:21.639263Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:21.650002Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:31.626847Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:31.639286Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:31.650094Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:41.628193Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:41.640032Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:41.651129Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:51.626901Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:51.639501Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:19:51.649960Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:01.626940Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:01.639403Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:01.650227Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:11.627403Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:11.639801Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:11.650600Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:21.627512Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:21.639842Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:21.650940Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:31.627679Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:31.643142Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:31.655096Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:41.628338Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:41.639995Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:41.652572Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:51.626709Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:51.638914Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-15T19:20:51.650220Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.228328Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.244865Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.256902Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.271330Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.288164Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-18T18:30:50.299924Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.416155Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.454407Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.468654Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.490841Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.509220Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:24.524240Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.819427Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.838411Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.852350Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.870433Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.888110Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-19T12:37:51.902749Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.253526Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.269617Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.282552Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.299892Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.316034Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:41.331044Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.656972Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.674702Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.687327Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.707662Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.722351Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-20T13:05:47.736292Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.264247Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.301060Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.327445Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.371005Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.426492Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:28.454736Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.617615Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.670993Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.731632Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.777615Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.810715Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:05:37.838504Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.055283Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.094254Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.128472Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.175938Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.217498Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T10:14:07.247458Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.612611Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.629529Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.643495Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.663653Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.685272Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:10:55.701351Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.705193Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.747385Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.780578Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.833096Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.869437Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-21T12:19:20.899829Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:44.924007Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:44.938887Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:44.952467Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:44.976927Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:44.992031Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T09:45:45.005919Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.105831Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.129346Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.152631Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.183351Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.208117Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T16:38:56.231450Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.245026Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.281509Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.318345Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.361516Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.412909Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-22T20:12:23.439264Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.794671Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.816585Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.830066Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.851713Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.871898Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:30:54.887187Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:04.786527Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:04.799669Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:04.815331Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:14.786227Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:14.799075Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:14.811628Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:24.786417Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:24.799731Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:24.812484Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:34.783472Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:34.796522Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:34.809139Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:44.783959Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:44.797680Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:44.810503Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:54.784840Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:54.798556Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:31:54.811851Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:32:04.784057Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:32:04.797097Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T16:32:04.809527Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.110729Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.123440Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.135749Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.149513Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.163629Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:39.177708Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:45.553696Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:45.566278Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-23T20:02:45.579820Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.062614Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.081788Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.097067Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.113897Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9600000000000001,
+    "last_ledger": "block-1765813237",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.131641Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:08:55.146818Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.280078Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.300744Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.315951Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.330572Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.612327Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.628263Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:03.647476Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:05.062394Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:05.076522Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.9,
+    "trust_score": 0.86,
+    "last_ledger": "block-1765813240",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:05.090888Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:07.953140Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.92,
+    "trust_score": 0.87,
+    "last_ledger": "block-1766682547",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:07.970951Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:08.005203Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.92,
+    "trust_score": 0.87,
+    "last_ledger": "block-1766682547",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:08.018565Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.93,
+    "trust_score": 0.9,
+    "last_ledger": "block-1765813241",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:12.264347Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.9500000000000001,
+    "trust_score": 0.91,
+    "last_ledger": "block-1766682552",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:12.287346Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:12.328673Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.92,
+    "trust_score": 0.87,
+    "last_ledger": "block-1766682547",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:12.343610Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.9500000000000001,
+    "trust_score": 0.91,
+    "last_ledger": "block-1766682552",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:15.062098Z",
+    "node_id": "node-us-1",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:15.077538Z",
+    "node_id": "node-eu-1",
+    "sync_health": 0.92,
+    "trust_score": 0.87,
+    "last_ledger": "block-1766682547",
+    "active": true
+  },
+  {
+    "timestamp": "2025-12-25T20:09:15.091066Z",
+    "node_id": "node-asia-1",
+    "sync_health": 0.9500000000000001,
+    "trust_score": 0.91,
+    "last_ledger": "block-1766682552",
+    "active": true
+  }
+]

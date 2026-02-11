@@ -1,0 +1,32 @@
+[
+  {
+    "id": "node-us-1",
+    "country": "USA",
+    "tag": "us-east",
+    "sync_health": 1.0,
+    "trust_score": 0.9700000000000001,
+    "last_ledger": "block-1766682543",
+    "last_sync": "2025-12-25T20:09:03.277043Z",
+    "active": true
+  },
+  {
+    "id": "node-eu-1",
+    "country": "EU",
+    "tag": "eu-central",
+    "sync_health": 0.92,
+    "trust_score": 0.87,
+    "last_ledger": "block-1766682547",
+    "last_sync": "2025-12-25T20:09:07.950371Z",
+    "active": true
+  },
+  {
+    "id": "node-asia-1",
+    "country": "ASIA",
+    "tag": "asia-pacific",
+    "sync_health": 0.9500000000000001,
+    "trust_score": 0.91,
+    "last_ledger": "block-1766682552",
+    "last_sync": "2025-12-25T20:09:12.259032Z",
+    "active": true
+  }
+]

@@ -1,0 +1,12 @@
+# Minimal backend Dockerfile (placeholder)
+FROM python:3.11-slim
+WORKDIR /app
+
+# Copy application
+COPY backend /app/backend
+COPY backend/requirements.txt /app/requirements.txt
+
+# Install dependencies from requirements file
+RUN pip install --no-cache-dir -r /app/requirements.txt
+
+CMD ["uvicorn", "backend.api.server:app", "--host", "0.0.0.0", "--port", "8000"]

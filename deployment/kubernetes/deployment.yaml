@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jarvis-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jarvis-backend
+  template:
+    metadata:
+      labels:
+        app: jarvis-backend
+    spec:
+      containers:
+        - name: backend
+          image: jarvis-backend:latest
+          ports:
+            - containerPort: 8000

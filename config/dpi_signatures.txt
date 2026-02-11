@@ -1,0 +1,5 @@
+# DPI signatures: format id:pattern
+# simple ascii signatures for prototype
+1:badpattern
+2:evil
+3:0xdeadbeef

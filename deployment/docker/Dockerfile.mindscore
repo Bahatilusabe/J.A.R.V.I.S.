@@ -1,0 +1,56 @@
+# MindSpore + PQC Cryptography Docker Image
+# Recommended for production deployment
+# Build: docker build -f deployment/docker/Dockerfile.mindscore -t jarvis:mindscore .
+# Run: docker run -p 8000:8000 jarvis:mindscore
+
+FROM mindspore/mindspore:latest-cpu
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies from requirements.txt
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install additional ML/crypto dependencies
+RUN pip install --no-cache-dir \
+    fastapi==0.95.2 \
+    uvicorn==0.22.0 \
+    liboqs-python>=0.7.2 \
+    cryptography>=41.0.0 \
+    pydantic>=2.0.0 \
+    sqlalchemy>=2.0.0 \
+    aiosqlite>=0.18.0 \
+    python-jose>=3.3.0 \
+    PyJWT>=2.8.0 \
+    aioredis>=2.0.0
+
+# Copy entire application
+COPY . /app
+
+# Create necessary directories
+RUN mkdir -p /app/backend/backups && \
+    mkdir -p /app/logs && \
+    chmod -R 755 /app/backend/backups
+
+# Expose port
+EXPOSE 8000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8000/api/health || exit 1
+
+# Environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PQC_ENABLED=true
+
+# Run the application
+CMD ["uvicorn", "backend.api.server:app", "--host", "0.0.0.0", "--port", "8000"]

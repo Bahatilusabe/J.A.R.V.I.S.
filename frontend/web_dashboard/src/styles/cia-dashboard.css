@@ -1,0 +1,1109 @@
+/* ========================================
+   CIA DASHBOARD - CLASSIFIED BRIEFING STYLE
+   ======================================== */
+
+/* CSS Variables - Intelligence Agency Color Scheme */
+:root {
+  --cia-primary: #1a472a;
+  --cia-secondary: #2d5a3d;
+  --cia-accent: #d4af37;
+  --cia-gold: #daa520;
+  --cia-text-primary: #e8e8e8;
+  --cia-text-secondary: #b0b0b0;
+  --cia-border-dark: #0f2417;
+  --cia-border-light: #2a4a38;
+  --cia-critical: #d32f2f;
+  --cia-warning: #f57c00;
+  --cia-success: #388e3c;
+  --cia-info: #1976d2;
+  --cia-bg-deep: #0a0f0d;
+  --cia-bg-overlay: #1a2622;
+}
+
+/* Main Container */
+.cia-dashboard-container {
+  background: linear-gradient(135deg, var(--cia-bg-deep) 0%, #0f1410 100%);
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 64px;
+  /* matches SystemBar height (px-4 py-3 ~ 48-64) */
+}
+
+.cia-dashboard-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    repeating-linear-gradient(0deg,
+      rgba(212, 175, 55, 0.02) 0px,
+      rgba(212, 175, 55, 0.02) 1px,
+      transparent 1px,
+      transparent 2px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Classification Header */
+.cia-classified-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.cia-classification-banner {
+  width: 100%;
+  background: linear-gradient(90deg, var(--cia-border-dark) 0%, var(--cia-accent) 50%, var(--cia-border-dark) 100%);
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid var(--cia-accent);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
+}
+
+.cia-classification-text {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 11px;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 1px rgba(212, 175, 55, 0.3);
+  font-family: 'Courier New', monospace;
+}
+
+.cia-header-content {
+  width: 100%;
+  background: linear-gradient(180deg, var(--cia-primary) 0%, var(--cia-secondary) 100%);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--cia-accent);
+  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.1), 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.cia-logo-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cia-emblem {
+  font-size: 48px;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
+  animation: cia-emblem-glow 3s ease-in-out infinite;
+}
+
+@keyframes cia-emblem-glow {
+
+  0%,
+  100% {
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
+  }
+
+  50% {
+    filter: drop-shadow(0 0 16px rgba(212, 175, 55, 0.6));
+  }
+}
+
+.cia-title {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: var(--cia-accent);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+  font-family: 'Courier New', monospace;
+}
+
+.cia-subtitle {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: var(--cia-text-secondary);
+  text-transform: uppercase;
+  margin-top: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-timestamp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.cia-timestamp-label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--cia-text-secondary);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-timestamp-value {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--cia-accent);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+
+/* Threat Matrix */
+.cia-threat-matrix {
+  margin: 24px;
+  padding: 16px;
+  border: 2px solid var(--cia-border-light);
+  background: linear-gradient(135deg, rgba(26, 71, 42, 0.4) 0%, rgba(45, 90, 61, 0.2) 100%);
+  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.cia-threat-matrix::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cia-accent), transparent);
+}
+
+.cia-threat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--cia-border-light);
+}
+
+.cia-section-title {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--cia-accent);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-clearance-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+  border: 1px solid var(--cia-accent);
+  border-radius: 3px;
+}
+
+.cia-badge-label {
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: var(--cia-text-secondary);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-badge-level {
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--cia-accent);
+  letter-spacing: 2px;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.cia-metric-card {
+  padding: 16px;
+  border: 1px solid var(--cia-border-light);
+  border-left: 4px solid var(--cia-info);
+  background: linear-gradient(135deg, rgba(25, 118, 210, 0.08) 0%, rgba(25, 118, 210, 0.02) 100%);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.cia-metric-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.cia-metric-card:hover::before {
+  left: 100%;
+}
+
+.cia-metric-card.cia-metric-primary {
+  border-left-color: var(--cia-accent);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.08) 0%, rgba(212, 175, 55, 0.02) 100%);
+}
+
+.cia-metric-card.cia-metric-success {
+  border-left-color: var(--cia-success);
+  background: linear-gradient(135deg, rgba(56, 142, 60, 0.08) 0%, rgba(56, 142, 60, 0.02) 100%);
+}
+
+.cia-metric-card.cia-metric-critical {
+  border-left-color: var(--cia-critical);
+  background: linear-gradient(135deg, rgba(211, 47, 47, 0.08) 0%, rgba(211, 47, 47, 0.02) 100%);
+}
+
+.cia-metric-card.cia-metric-warning {
+  border-left-color: var(--cia-warning);
+  background: linear-gradient(135deg, rgba(245, 124, 0, 0.08) 0%, rgba(245, 124, 0, 0.02) 100%);
+}
+
+.cia-metric-label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: var(--cia-text-secondary);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 8px;
+}
+
+.cia-metric-value {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--cia-text-primary);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 4px;
+}
+
+.cia-metric-sublabel {
+  font-size: 9px;
+  color: var(--cia-text-secondary);
+  font-style: italic;
+}
+
+/* Main Grid Layout */
+.cia-main-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Panels */
+.cia-panel {
+  border: 2px solid var(--cia-border-light);
+  background: linear-gradient(180deg, rgba(26, 71, 42, 0.3) 0%, rgba(10, 15, 13, 0.5) 100%);
+  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.05), 0 8px 24px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cia-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cia-accent), transparent);
+}
+
+.cia-panel-left {
+  grid-column: 1;
+}
+
+.cia-panel-center {
+  grid-column: 2;
+}
+
+.cia-panel-right {
+  grid-column: 3;
+}
+
+.cia-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--cia-border-light);
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+}
+
+.cia-panel-title {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--cia-accent);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-panel-badge {
+  padding: 4px 8px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: var(--cia-text-primary);
+  background: rgba(56, 142, 60, 0.3);
+  border: 1px solid var(--cia-success);
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-panel-badge.warning {
+  background: rgba(245, 124, 0, 0.3);
+  border-color: var(--cia-warning);
+}
+
+.cia-panel-badge.urgent {
+  background: rgba(211, 47, 47, 0.3);
+  border-color: var(--cia-critical);
+}
+
+.cia-panel-content {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.cia-intelligence-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cia-narrative-card {
+  padding: 12px;
+  border: 1px solid var(--cia-border-light);
+  background: rgba(45, 90, 61, 0.2);
+  border-left: 3px solid var(--cia-info);
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.cia-narrative-card:hover {
+  border-left-color: var(--cia-accent);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.cia-loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 12px;
+}
+
+.cia-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--cia-border-light);
+  border-top-color: var(--cia-accent);
+  border-radius: 50%;
+  animation: cia-spin 0.8s linear infinite;
+}
+
+@keyframes cia-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cia-loading-text {
+  font-size: 12px;
+  color: var(--cia-text-secondary);
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 8px;
+  text-align: center;
+}
+
+.cia-empty-icon {
+  font-size: 36px;
+  color: var(--cia-success);
+  opacity: 0.7;
+}
+
+.cia-empty-text {
+  font-size: 12px;
+  color: var(--cia-text-primary);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.cia-empty-subtext {
+  font-size: 10px;
+  color: var(--cia-text-secondary);
+  font-style: italic;
+}
+
+/* Secure Selector */
+.cia-secure-selector {
+  margin: 16px 0;
+  padding: 12px;
+  border: 1px solid var(--cia-border-light);
+  background: rgba(45, 90, 61, 0.2);
+}
+
+.cia-selector-label {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: var(--cia-accent);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.cia-selector-input {
+  width: 100%;
+  padding: 8px;
+  background: rgba(10, 15, 13, 0.7);
+  border: 1px solid var(--cia-border-light);
+  color: var(--cia-text-primary);
+  font-size: 11px;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cia-selector-input:hover {
+  border-color: var(--cia-accent);
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+}
+
+.cia-selector-input:focus {
+  outline: none;
+  border-color: var(--cia-accent);
+  box-shadow: inset 0 0 4px rgba(212, 175, 55, 0.2), 0 0 8px rgba(212, 175, 55, 0.2);
+}
+
+/* Control Deck */
+.cia-control-deck {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Attack Landscape */
+.cia-attack-landscape {
+  margin: 24px;
+  border: 2px solid var(--cia-border-light);
+  background: linear-gradient(135deg, rgba(26, 71, 42, 0.3) 0%, rgba(10, 15, 13, 0.5) 100%);
+  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.05), 0 8px 24px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.cia-attack-landscape::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cia-accent), transparent);
+}
+
+.cia-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--cia-border-light);
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.05) 0%, transparent 100%);
+}
+
+.cia-view-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.cia-view-button {
+  padding: 6px 12px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background: rgba(45, 90, 61, 0.3);
+  border: 1px solid var(--cia-border-light);
+  color: var(--cia-text-secondary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', monospace;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.cia-view-button:hover {
+  border-color: var(--cia-accent);
+  color: var(--cia-accent);
+}
+
+.cia-view-button.active {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+  border-color: var(--cia-accent);
+  color: var(--cia-accent);
+  box-shadow: inset 0 0 8px rgba(212, 175, 55, 0.1);
+}
+
+.cia-landscape-visualization {
+  padding: 32px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(10, 15, 13, 0.5) 0%, rgba(45, 90, 61, 0.2) 100%);
+  position: relative;
+}
+
+.cia-landscape-visualization::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(212, 175, 55, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+}
+
+.cia-landscape-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cia-landscape-icon {
+  font-size: 48px;
+  filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
+}
+
+.cia-landscape-title {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: var(--cia-accent);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-landscape-description {
+  font-size: 11px;
+  color: var(--cia-text-secondary);
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+.cia-landscape-footer {
+  font-size: 10px;
+  color: var(--cia-text-secondary);
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--cia-border-light);
+  width: 100%;
+}
+
+.cia-threat-active,
+.cia-threat-predicted,
+.cia-threat-dormant {
+  color: var(--cia-text-primary);
+  font-weight: 600;
+}
+
+.cia-threat-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.cia-threat-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.cia-threat-stat {
+  font-size: 11px;
+  color: var(--cia-text-secondary);
+  padding: 8px;
+  background: rgba(212, 175, 55, 0.05);
+  border: 1px solid var(--cia-border-light);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-threat-active {
+  color: var(--cia-critical);
+}
+
+.cia-threat-predicted {
+  color: var(--cia-warning);
+}
+
+.cia-threat-dormant {
+  color: var(--cia-info);
+}
+
+/* Forensics Section */
+.cia-forensics-section {
+  margin: 24px;
+  border: 2px solid var(--cia-border-light);
+  background: linear-gradient(135deg, rgba(26, 71, 42, 0.3) 0%, rgba(10, 15, 13, 0.5) 100%);
+  box-shadow: inset 0 1px 0 rgba(212, 175, 55, 0.05), 0 8px 24px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.cia-forensics-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--cia-accent), transparent);
+}
+
+.cia-section-metadata {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 9px;
+  color: var(--cia-text-secondary);
+  font-family: 'Courier New', monospace;
+}
+
+.cia-metadata-item {
+  letter-spacing: 1px;
+}
+
+.cia-metadata-divider {
+  color: var(--cia-border-light);
+}
+
+.cia-forensics-table-wrapper {
+  overflow-x: auto;
+  padding: 0;
+}
+
+.cia-forensics-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  font-family: 'Courier New', monospace;
+}
+
+.cia-forensics-table thead {
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.08) 0%, transparent 100%);
+  border-bottom: 2px solid var(--cia-accent);
+}
+
+.cia-forensics-table thead th {
+  padding: 12px;
+  text-align: left;
+  color: var(--cia-accent);
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cia-forensics-table tbody tr {
+  border-bottom: 1px solid var(--cia-border-light);
+  transition: all 0.3s ease;
+}
+
+.cia-forensics-table tbody tr:hover {
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.cia-forensics-row td {
+  padding: 10px 12px;
+  color: var(--cia-text-primary);
+  vertical-align: middle;
+}
+
+.cia-timestamp-cell {
+  color: var(--cia-text-secondary);
+  font-size: 10px;
+}
+
+.cia-source-cell {
+  color: var(--cia-accent);
+  font-weight: 600;
+}
+
+.cia-type-cell {
+  color: var(--cia-text-primary);
+}
+
+.cia-severity-cell {
+  text-align: center;
+}
+
+.cia-severity-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cia-severity-critical {
+  background: rgba(211, 47, 47, 0.3);
+  color: #ff6b6b;
+  border: 1px solid var(--cia-critical);
+}
+
+.cia-severity-high {
+  background: rgba(245, 124, 0, 0.3);
+  color: #ffb74d;
+  border: 1px solid var(--cia-warning);
+}
+
+.cia-severity-low {
+  background: rgba(56, 142, 60, 0.3);
+  color: #81c784;
+  border: 1px solid var(--cia-success);
+}
+
+.cia-evidence-cell {
+  color: var(--cia-text-secondary);
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cia-empty-row {
+  text-align: center;
+  padding: 32px !important;
+  color: var(--cia-text-secondary);
+  font-style: italic;
+}
+
+/* Document Footer */
+.cia-document-footer {
+  margin-top: 32px;
+  margin-bottom: 0;
+  border-top: 2px solid var(--cia-accent);
+  background: linear-gradient(180deg, rgba(26, 71, 42, 0.3) 0%, var(--cia-primary) 100%);
+}
+
+.cia-footer-divider {
+  height: 2px;
+  background: linear-gradient(90deg, var(--cia-border-dark), var(--cia-accent), var(--cia-border-dark));
+}
+
+.cia-footer-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.cia-footer-classification {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--cia-accent);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.cia-footer-warning {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--cia-critical);
+  text-transform: uppercase;
+  font-family: 'Courier New', monospace;
+  font-weight: 900;
+  animation: cia-warning-blink 1.5s ease-in-out infinite;
+}
+
+@keyframes cia-warning-blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Ensure dashboard content sits below the sticky system topbar and blends with it */
+.cia-dashboard-container {
+  /* existing background kept; add top padding for the sticky topbar */
+  padding-top: 64px;
+  /* matches SystemBar height (px-4 py-3 ~ 48-64) */
+}
+
+/* Small helper styles to make the topbar blend with CIA color palette when used on the dashboard */
+.system-bar {
+  background: linear-gradient(180deg, rgba(26, 38, 34, 0.92), rgba(26, 38, 34, 0.6));
+  border-bottom: 1px solid rgba(42, 74, 56, 0.14);
+  color: var(--cia-text-primary);
+}
+
+.system-bar .status-chip {
+  /* ensure the status chip contrasts nicely */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.6));
+}
+
+/* Make sure the dashboard header maintains stacking order under the topbar */
+.cia-classified-header,
+.cia-header-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+  .cia-main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cia-panel-center {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .cia-main-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 12px;
+  }
+
+  .cia-panel {
+    min-height: 400px;
+  }
+
+  .cia-panel-left,
+  .cia-panel-center,
+  .cia-panel-right {
+    grid-column: 1;
+  }
+
+  .cia-header-content {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .cia-title {
+    font-size: 22px;
+  }
+
+  .cia-subtitle {
+    font-size: 10px;
+  }
+
+  .cia-timestamp {
+    align-items: center;
+  }
+
+  .cia-metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cia-threat-matrix,
+  .cia-attack-landscape,
+  .cia-forensics-section {
+    margin: 12px;
+  }
+
+  .cia-forensics-table {
+    font-size: 10px;
+  }
+
+  .cia-forensics-table thead th,
+  .cia-forensics-row td {
+    padding: 8px;
+  }
+
+  .cia-landscape-icon {
+    font-size: 36px;
+  }
+
+  .cia-landscape-title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cia-dashboard-container {
+    padding: 0;
+  }
+
+  .cia-classified-header {
+    margin: 0;
+  }
+
+  .cia-header-content {
+    padding: 16px;
+  }
+
+  .cia-title {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  .cia-subtitle {
+    font-size: 9px;
+  }
+
+  .cia-metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cia-metric-card {
+    padding: 12px;
+  }
+
+  .cia-metric-value {
+    font-size: 24px;
+  }
+
+  .cia-threat-matrix,
+  .cia-main-grid,
+  .cia-attack-landscape,
+  .cia-forensics-section {
+    margin: 8px;
+  }
+
+  .cia-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .cia-view-controls {
+    width: 100%;
+  }
+
+  .cia-view-button {
+    flex: 1;
+  }
+
+  .cia-forensics-table {
+    font-size: 9px;
+  }
+}
+
+/* Scrollbar Styling */
+.cia-panel-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cia-panel-content::-webkit-scrollbar-track {
+  background: var(--cia-bg-overlay);
+  border-radius: 4px;
+}
+
+.cia-panel-content::-webkit-scrollbar-thumb {
+  background: var(--cia-border-light);
+  border-radius: 4px;
+  border: 2px solid var(--cia-bg-overlay);
+}
+
+.cia-panel-content::-webkit-scrollbar-thumb:hover {
+  background: var(--cia-accent);
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+/* Animation for entering elements */
+@keyframes cia-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cia-panel,
+.cia-metric-card,
+.cia-threat-matrix,
+.cia-attack-landscape,
+.cia-forensics-section {
+  animation: cia-fade-in 0.5s ease-out forwards;
+}
+
+/* Print Styles */
+@media print {
+  .cia-dashboard-container {
+    background: white;
+  }
+
+  .cia-classification-banner {
+    background: black;
+  }
+
+  .cia-classification-text {
+    color: white;
+  }
+
+  .cia-header-content {
+    background: #f5f5f5;
+  }
+
+  .cia-title,
+  .cia-accent {
+    color: #000;
+  }
+
+  .cia-section-title {
+    color: #000;
+  }
+
+  .cia-text-primary {
+    color: #000;
+  }
+
+  .cia-text-secondary {
+    color: #333;
+  }
+}

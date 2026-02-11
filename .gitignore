@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+.DS_Store
+/.mypy_cache
+/.pytest_cache
+*.sqlite3
+
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

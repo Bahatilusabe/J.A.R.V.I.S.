@@ -1,0 +1,283 @@
+# Defense Reflex Rules
+# Mimics biological reflex arcs: stimulus → spinal response (no brain latency)
+# 
+# Risk Levels:
+#   LOW:      0.0-0.3    (AI reasoning, can wait for full analysis)
+#   MEDIUM:   0.3-0.6    (Fast reflex, human review in parallel)
+#   HIGH:     0.6-0.85   (Immediate isolation, escalate for approval)
+#   CRITICAL: 0.85-1.0   (Isolate first, explain later, ask forgiveness)
+
+reflexes:
+  
+  # ======================================================================
+  # CRITICAL THREAT REFLEX (0.85-1.0 threat score)
+  # ======================================================================
+  # Biological parallel: Withdrawal reflex (hand on hot stove)
+  # Decision latency: <10ms (purely signal-based, no AI reasoning)
+  
+  critical_threat_isolation:
+    threat_score_min: 0.85
+    threat_score_max: 1.0
+    latency_budget_ms: 10
+    
+    # Immediate actions (no human approval needed)
+    immediate_actions:
+      - action: network_isolate
+        target: source_host
+        mode: full_isolation
+        timeout_sec: 300
+      
+      - action: block_flow
+        target: connection
+        direction: bidirectional
+        reason: "Critical threat - automatic isolation"
+      
+      - action: kill_process
+        target: malicious_process
+        signal: SIGKILL
+        reason: "Process executing known attack pattern"
+    
+    # Escalation (for human review while isolated)
+    escalation:
+      severity: CRITICAL
+      priority: P1
+      approval_required: true
+      approval_timeout_sec: 60
+      auto_extend: true  # Keep isolation until approved
+      reason_template: "Critical threat detected: {attack_type}. Host isolated. Requires immediate review."
+  
+  
+  # ======================================================================
+  # HIGH RISK REFLEX (0.60-0.85 threat score)
+  # ======================================================================
+  # Biological parallel: Pain reflex (quick movement before feeling)
+  # Decision latency: <100ms (fast trained reflex)
+  
+  high_risk_containment:
+    threat_score_min: 0.60
+    threat_score_max: 0.85
+    latency_budget_ms: 100
+    
+    # Conditional reflex: depends on threat type
+    conditional_actions:
+      
+      # DDoS Attack → Rate Limit
+      - threat_type: ddos
+        actions:
+          - action: rate_limit
+            target: source_ip
+            packets_per_sec: 100
+            duration_sec: 300
+          
+          - action: drop_flow
+            condition: "packet_rate > 1000/sec"
+            target: connection
+      
+      # Port Scan → Block Port Scanner
+      - threat_type: port_scan
+        actions:
+          - action: block_host
+            target: source_host
+            duration_sec: 600
+            reason: "Active port scanning detected"
+          
+          - action: alert_security_team
+            priority: HIGH
+      
+      # Data Exfiltration → Throttle & Alert
+      - threat_type: data_exfiltration
+        actions:
+          - action: throttle_bandwidth
+            target: connection
+            max_mbps: 1
+            duration_sec: 300
+          
+          - action: block_destination
+            target: external_ip
+            duration_sec: 1800
+            reason: "Suspected data exfiltration destination"
+          
+          - action: alert_data_team
+            priority: HIGH
+      
+      # Malware Execution → Kill + Isolate
+      - threat_type: malware_execution
+        actions:
+          - action: kill_process
+            target: malicious_process
+            signal: SIGTERM
+            timeout_sec: 5
+          
+          - action: network_isolate
+            target: source_host
+            mode: restricted_isolation
+            allow_management: true
+            reason: "Malware execution detected"
+          
+          - action: alert_security_team
+            priority: HIGH
+    
+    # Escalation for human decision
+    escalation:
+      severity: HIGH
+      priority: P2
+      approval_required: true
+      approval_timeout_sec: 300
+      reason_template: "High-risk threat: {attack_type}. Partial containment active. Awaiting approval for full isolation."
+  
+  
+  # ======================================================================
+  # MEDIUM RISK REFLEX (0.30-0.60 threat score)
+  # ======================================================================
+  # Biological parallel: Startle reflex (quick but not isolation)
+  # Decision latency: <500ms (parallel with human reasoning)
+  
+  medium_risk_monitoring:
+    threat_score_min: 0.30
+    threat_score_max: 0.60
+    latency_budget_ms: 500
+    
+    # Non-blocking actions (human decides final action)
+    monitoring_actions:
+      - action: enhanced_logging
+        target: connection
+        log_level: DEBUG
+        capture_payload: true
+        retention_sec: 3600
+      
+      - action: anomaly_score_increase
+        target: source_host
+        score_increase: 0.15
+        decay_hours: 24
+      
+      - action: add_to_watchlist
+        target: source_host
+        duration_sec: 3600
+        reason: "Medium-risk pattern detected"
+    
+    # Alert (no automation, human decides)
+    escalation:
+      severity: MEDIUM
+      priority: P3
+      approval_required: false  # For info only
+      reason_template: "Medium-risk threat detected: {attack_type}. Enhanced monitoring active."
+  
+  
+  # ======================================================================
+  # LOW RISK REFLEX (0.0-0.30 threat score)
+  # ======================================================================
+  # Biological parallel: Conscious decision-making
+  # Decision latency: <2s (full AI reasoning)
+  
+  low_risk_analysis:
+    threat_score_min: 0.0
+    threat_score_max: 0.30
+    latency_budget_ms: 2000
+    
+    # Passive analysis only
+    analysis_actions:
+      - action: log_event
+        target: connection
+        log_level: INFO
+        retention_sec: 86400
+      
+      - action: update_threat_model
+        target: source_host
+        update_type: increment_suspicion
+        amount: 0.02
+    
+    # No escalation (stored in threat database)
+    escalation:
+      severity: LOW
+      priority: P4
+      approval_required: false
+      reason_template: "Low-risk activity logged: {attack_type}. No action required."
+
+
+# ======================================================================
+# REFLEX PARAMETERS
+# ======================================================================
+
+reflex_parameters:
+  
+  # Latency budgets (milliseconds)
+  latency_budgets:
+    critical_ms: 10       # Spinal reflex speed
+    high_ms: 100          # Fast reflex
+    medium_ms: 500        # Medium reasoning
+    low_ms: 2000          # Full AI reasoning
+  
+  # Isolation modes
+  isolation_modes:
+    full_isolation:
+      description: "Complete network disconnection"
+      allow_management: false
+      allow_monitoring: false
+    
+    restricted_isolation:
+      description: "Allow management/monitoring, block all data"
+      allow_management: true
+      allow_monitoring: true
+    
+    rate_limited_isolation:
+      description: "Allow limited bandwidth"
+      bandwidth_mbps: 1
+      allow_management: true
+  
+  # Decision parameters
+  decision_parameters:
+    threat_score_threshold: 0.30         # Start taking action
+    critical_threshold: 0.85             # Isolate first
+    approval_timeout_sec: 300            # How long to wait for human
+    auto_extend_isolation: true          # Keep isolating until approved
+    max_isolation_duration_sec: 3600     # Hard limit
+  
+  # Escalation parameters
+  escalation_parameters:
+    critical_notify:
+      - security_team_oncall
+      - incident_commander
+      - ciso
+    
+    high_notify:
+      - security_team
+      - incident_response
+    
+    medium_notify:
+      - security_monitoring
+    
+    low_notify:
+      - threat_database
+
+
+# ======================================================================
+# SPINAL REFLEX CHARACTERISTICS
+# ======================================================================
+# These rules mimic biological spinal reflex arcs:
+#
+# 1. LOW LATENCY: Decision happens at the "spinal cord" level
+#    - No communication with brain (full AI reasoning)
+#    - <10ms for critical threats
+#    - Sensory input → motor output, direct connection
+#
+# 2. LEARNED REFLEXES: Memory improves with experience
+#    - Immune memory updates on each incident
+#    - Threat patterns strengthen over time
+#    - Reflex responses become more efficient
+#
+# 3. GRADUATED RESPONSE: Proportional to threat level
+#    - Low: Just watching (consciousness)
+#    - Medium: Quick flinch (simple reflex)
+#    - High: Withdrawal (trained reflex)
+#    - Critical: Isolation (survival reflex)
+#
+# 4. HUMAN OVERRIDE: Always possible
+#    - Even critical reflexes await approval
+#    - Can be adjusted based on feedback
+#    - False positives reduce reflex strength
+#
+# 5. PARALLEL PROCESSING:
+#    - Reflex acts immediately
+#    - Full analysis runs in parallel
+#    - Results may override reflex decision
+#    - Example: Isolate in 50ms, full analysis in 5s

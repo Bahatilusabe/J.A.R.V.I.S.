@@ -1,0 +1,6 @@
+{"channel": "mychannel", "block": {"number": 0, "data": {"txs": [{"id": "tx0", "payload": {"n": 0}}]}}}
+{"channel": "mychannel", "block": {"number": 1, "data": {"txs": [{"id": "tx1", "payload": {"n": 1}}]}}}
+{"channel": "mychannel", "block": {"number": 2, "data": {"txs": [{"id": "tx2", "payload": {"n": 2}}]}}}
+{"channel": "mychannel", "block": {"number": 0, "data": {"txs": [{"id": "tx0", "payload": {"n": 0}}]}}}
+{"channel": "mychannel", "block": {"number": 1, "data": {"txs": [{"id": "tx1", "payload": {"n": 1}}]}}}
+{"channel": "mychannel", "block": {"number": 2, "data": {"txs": [{"id": "tx2", "payload": {"n": 2}}]}}}

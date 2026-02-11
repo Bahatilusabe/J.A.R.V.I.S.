@@ -1,0 +1,87 @@
+/* Home Page Animations */
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px);
+  }
+  66% {
+    transform: translateY(10px) translateX(-10px);
+  }
+}
+
+@keyframes rotateRing {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@keyframes rotateRingReverse {
+  0% {
+    transform: rotateX(0deg) rotateY(360deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(0deg);
+  }
+}
+
+@keyframes sphereGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.8));
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(168, 85, 247, 1));
+  }
+}
+
+/* Pulse delay animation */
+@keyframes pulse-delay {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.glow-orb-1 {
+  animation: pulse-delay 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.glow-orb-2 {
+  animation: pulse-delay 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation-delay: 1s;
+}
+
+.float-label-1 {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-label-2 {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.ring-1 {
+  animation: rotateRing 8s linear infinite;
+  transform-origin: 200px 200px;
+}
+
+.ring-2 {
+  animation: rotateRingReverse 10s linear infinite;
+  transform-origin: 200px 200px;
+}
+
+.ring-3 {
+  animation: rotateRing 12s linear infinite;
+  transform-origin: 200px 200px;
+}
+
+.sphere-glow {
+  animation: sphereGlow 3s ease-in-out infinite;
+}

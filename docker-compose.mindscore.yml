@@ -1,0 +1,134 @@
+version: '3.8'
+
+# Docker Compose configuration for J.A.R.V.I.S. with MindSpore
+# Usage: docker-compose -f docker-compose.mindscore.yml up --build
+# This sets up: MindSpore PQC App + Redis + PostgreSQL
+
+services:
+  # Main application with MindSpore and PQC
+  mindscore-app:
+    build:
+      context: .
+      dockerfile: deployment/docker/Dockerfile.mindscore
+    container_name: jarvis-mindscore
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./backend/backups:/app/backend/backups
+      - ./logs:/app/logs
+    environment:
+      # Python settings
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      
+      # PQC Configuration
+      - PQC_ENABLED=true
+      - PQC_KEY_ROTATION_DAYS=30
+      - PQC_SESSION_TIMEOUT=3600
+      
+      # Database
+      - DATABASE_URL=postgresql://jarvis:jarvis_secure@postgres:5432/jarvis_pqc
+      - REDIS_URL=redis://redis:6379/0
+      
+      # Security (set these in your .env file)
+      - PQC_SK_B64=${PQC_SK_B64:-}
+      - PQC_PK_B64=${PQC_PK_B64:-}
+      - API_HMAC_KEY=${API_HMAC_KEY:-}
+      
+      # CORS & Dev settings
+      - DEV_ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8000
+      - DEBUG=false
+      
+      # Telemetry (optional)
+      - TELEMETRY_ENABLED=false
+      - TELEMETRY_KAFKA_BROKERS=kafka:9092
+      
+    depends_on:
+      redis:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    
+    networks:
+      - jarvis-network
+    
+    command: >
+      sh -c "
+        echo 'Starting J.A.R.V.I.S. with MindSpore...' &&
+        python3 -c 'import mindspore; print(f\"MindSpore Version: {mindspore.__version__}\")' &&
+        uvicorn backend.api.server:app --host 0.0.0.0 --port 8000 --reload
+      "
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Redis for session storage and caching
+  redis:
+    image: redis:7-alpine
+    container_name: jarvis-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes --requirepass jarvis_redis_pass
+    networks:
+      - jarvis-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # PostgreSQL for persistent storage
+  postgres:
+    image: postgres:15-alpine
+    container_name: jarvis-postgres
+    environment:
+      POSTGRES_USER: jarvis
+      POSTGRES_PASSWORD: jarvis_secure
+      POSTGRES_DB: jarvis_pqc
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - jarvis-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jarvis -d jarvis_pqc"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: pgAdmin for database management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: jarvis-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@jarvis.local
+      PGADMIN_DEFAULT_PASSWORD: pgadmin_pass
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - jarvis-network
+    profiles:
+      - dev
+
+# Docker volumes for data persistence
+volumes:
+  redis-data:
+    driver: local
+  postgres-data:
+    driver: local
+
+# Docker networks
+networks:
+  jarvis-network:
+    driver: bridge

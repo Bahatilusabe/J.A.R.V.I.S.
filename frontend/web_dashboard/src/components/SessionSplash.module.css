@@ -1,0 +1,1116 @@
+/* SessionSplash Advanced Animations */
+
+/* Pulse animations with delays */
+@keyframes pulse-delay-half {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulse-delay-full {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-delay-half {
+  animation: pulse-delay-half 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-pulse-delay-full {
+  animation: pulse-delay-full 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation-delay: 1s;
+}
+
+/* Data stream animations */
+@keyframes flowing-line-animation {
+  0% {
+    opacity: 0.1;
+    stroke-dashoffset: 100;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.1;
+    stroke-dashoffset: -100;
+  }
+}
+
+.flowing-line {
+  stroke-dasharray: 100;
+  animation: flowing-line-animation 3s ease-in-out infinite;
+}
+
+/* Data packet animation */
+@keyframes data-packet-animation {
+  0% {
+    cy: 0%;
+    opacity: 1;
+  }
+  100% {
+    cy: 100%;
+    opacity: 0;
+  }
+}
+
+.data-packet {
+  animation: data-packet-animation linear infinite;
+}
+
+/* Particle animation */
+@keyframes particle-float {
+  0% {
+    opacity: 0;
+    transform: translateY(100px) translateX(-20px) scale(0.5);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px) translateX(20px) scale(0);
+  }
+}
+
+.particle {
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.8) 0%, rgba(34, 211, 238, 0) 70%);
+  border-radius: 50%;
+  animation: particle-float linear infinite;
+  filter: drop-shadow(0 0 3px rgba(34, 211, 238, 0.6));
+}
+
+/* Gradient rotating rings */
+@keyframes gradient-ring-slow {
+  0% {
+    transform: rotate(0deg);
+    border-color: rgba(34, 211, 238, 0.3) transparent rgba(34, 211, 238, 0.1) transparent;
+  }
+  50% {
+    border-color: rgba(34, 211, 238, 0.1) transparent rgba(34, 211, 238, 0.3) transparent;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-color: rgba(34, 211, 238, 0.3) transparent rgba(34, 211, 238, 0.1) transparent;
+  }
+}
+
+@keyframes gradient-ring-fast {
+  0% {
+    transform: rotate(0deg);
+    border-color: rgba(6, 182, 212, 0.5) transparent rgba(6, 182, 212, 0.2) transparent;
+  }
+  100% {
+    transform: rotate(-360deg);
+    border-color: rgba(6, 182, 212, 0.2) transparent rgba(6, 182, 212, 0.5) transparent;
+  }
+}
+
+.gradient-ring-slow {
+  animation: gradient-ring-slow 4s linear infinite;
+}
+
+.gradient-ring-fast {
+  animation: gradient-ring-fast 2s linear infinite;
+}
+
+/* Core sphere glow */
+@keyframes core-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(34, 211, 238, 0.8), inset 0 0 10px rgba(34, 211, 238, 0.4);
+    background: rgba(34, 211, 238, 0.9);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 1), inset 0 0 20px rgba(34, 211, 238, 0.6);
+    background: rgba(34, 211, 238, 1);
+  }
+}
+
+.core-sphere {
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(34, 211, 238, 0.8));
+  border-radius: 50%;
+  animation: core-glow 1.5s ease-in-out infinite;
+}
+
+/* Orbit dots */
+@keyframes orbit-animation {
+  0% {
+    transform: rotate(0deg) translateX(28px) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: rotate(360deg) translateX(28px) rotate(-360deg);
+    opacity: 1;
+  }
+}
+
+.orbit-dot {
+  background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.9), rgba(34, 211, 238, 0.9));
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(34, 211, 238, 0.8);
+  animation: orbit-animation 3s linear infinite;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+/* Typewriter and cursor effects */
+@keyframes typewriter-fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.typewriter-text {
+  animation: typewriter-fade 2s ease-in-out infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
+}
+
+.typing-cursor {
+  animation: cursor-blink 0.7s step-end infinite;
+  margin-left: 2px;
+}
+
+/* Progress bar animation */
+@keyframes progress-fill {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 75%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.progress-bar {
+  animation: progress-fill 2.5s ease-in-out infinite;
+}
+
+/* Logo glow pulse */
+@keyframes logo-glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.5)) drop-shadow(0 0 40px rgba(34, 211, 238, 0.2));
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(34, 211, 238, 0.8)) drop-shadow(0 0 60px rgba(34, 211, 238, 0.4));
+  }
+}
+
+.logo-glow {
+  animation: logo-glow-pulse 2s ease-in-out infinite;
+}
+
+/* Central triangle animations */
+@keyframes central-triangle-rotate {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.central-triangle {
+  animation: central-triangle-rotate 4s ease-in-out infinite;
+  filter: drop-shadow(0 0 15px rgba(34, 211, 238, 0.7));
+}
+
+/* Main triangle pulse and glow */
+@keyframes triangle-main-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(34, 211, 238, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px rgba(34, 211, 238, 1));
+  }
+}
+
+.triangle-main {
+  animation: triangle-main-pulse 1.5s ease-in-out infinite;
+}
+
+/* Outer triangle pulse */
+@keyframes triangle-pulse-anim {
+  0%, 100% {
+    opacity: 0.2;
+    stroke-width: 2;
+  }
+  50% {
+    opacity: 0.6;
+    stroke-width: 3;
+  }
+}
+
+.triangle-pulse {
+  animation: triangle-pulse-anim 1.5s ease-in-out infinite;
+}
+
+/* Inner triangle shimmer */
+@keyframes triangle-inner-shimmer {
+  0% {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(-2px);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translateY(2px);
+  }
+}
+
+.triangle-inner {
+  animation: triangle-inner-shimmer 2s ease-in-out infinite;
+}
+
+/* Rotating triangles container */
+@keyframes rotating-triangles-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-triangles {
+  animation: rotating-triangles-spin 6s linear infinite;
+}
+
+/* Orbiting triangle */
+@keyframes orbiting-triangle-anim {
+  0%, 100% {
+    opacity: 0.6;
+    fill: #06b6d4;
+  }
+  50% {
+    opacity: 1;
+    fill: #22d3ee;
+  }
+}
+
+.orbiting-triangle {
+  animation: orbiting-triangle-anim 2s ease-in-out infinite;
+}
+
+/* Mini triangle orbit animation */
+@keyframes mini-triangle-orbit-container {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mini-triangle-orbit {
+  animation: mini-triangle-orbit-container 3s linear infinite;
+}
+
+/* Individual mini triangle animation */
+@keyframes mini-triangle-scale-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 1;
+  }
+}
+
+.mini-triangle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: mini-triangle-scale-pulse 1.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 4px rgba(34, 211, 238, 0.6));
+}
+
+/* Glowing Sphere Animations */
+
+/* Central sphere pulsing glow */
+@keyframes sphere-glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 15px rgba(192, 132, 252, 0.6)) drop-shadow(0 0 30px rgba(168, 85, 247, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 25px rgba(192, 132, 252, 0.8)) drop-shadow(0 0 40px rgba(168, 85, 247, 0.5));
+  }
+}
+
+.central-sphere {
+  animation: sphere-glow-pulse 2.5s ease-in-out infinite;
+}
+
+/* Sphere aura animation */
+@keyframes sphere-aura-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+}
+
+.sphere-aura {
+  animation: sphere-aura-pulse 3s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(192, 132, 252, 0.4), inset 0 0 20px rgba(192, 132, 252, 0.2);
+}
+
+/* Glass Ring 1 - Fastest rotation (8s) */
+@keyframes glass-ring-rotate-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glass-ring-1 {
+  animation: glass-ring-rotate-1 8s linear infinite;
+}
+
+.ring-1-style {
+  background: radial-gradient(circle, rgba(192, 132, 252, 0.1) 0%, rgba(168, 85, 247, 0.05) 50%, transparent 100%);
+  box-shadow: inset 0 4px 10px rgba(192, 132, 252, 0.2), 0 0 20px rgba(192, 132, 252, 0.15);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  position: relative;
+}
+
+.ring-1-style::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, transparent 50%, rgba(0, 0, 0, 0.1) 100%);
+  pointer-events: none;
+}
+
+/* Glass Ring 2 - Medium rotation (12s) */
+@keyframes glass-ring-rotate-2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.glass-ring-2 {
+  animation: glass-ring-rotate-2 12s linear infinite;
+}
+
+.ring-2-style {
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, rgba(124, 58, 237, 0.08) 50%, transparent 100%);
+  box-shadow: inset 0 4px 15px rgba(168, 85, 247, 0.25), 0 0 35px rgba(168, 85, 247, 0.2);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  position: relative;
+}
+
+.ring-2-style::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, transparent 50%, rgba(0, 0, 0, 0.12) 100%);
+  pointer-events: none;
+}
+
+/* Glass Ring 3 - Slowest rotation (16s) */
+@keyframes glass-ring-rotate-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glass-ring-3 {
+  animation: glass-ring-rotate-3 16s linear infinite;
+}
+
+.ring-3-style {
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, rgba(109, 40, 217, 0.06) 50%, transparent 100%);
+  box-shadow: inset 0 4px 20px rgba(124, 58, 237, 0.2), 0 0 40px rgba(124, 58, 237, 0.15);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  position: relative;
+}
+
+.ring-3-style::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.08) 100%);
+  pointer-events: none;
+}
+
+/* Cinematic specular sweep for glass rings */
+@keyframes specular-sweep {
+  0% { transform: translateX(-120%) skewX(-10deg); opacity: 0; }
+  30% { opacity: 0.6; }
+  60% { transform: translateX(120%) skewX(10deg); opacity: 0.6; }
+  100% { transform: translateX(120%) skewX(10deg); opacity: 0; }
+}
+
+.ring-1-style::before,
+.ring-2-style::before,
+.ring-3-style::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0.0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0.0) 100%);
+  transform: translateX(-120%) skewX(-10deg);
+  mix-blend-mode: screen;
+  filter: blur(4px);
+  opacity: 0;
+  animation: specular-sweep 4.5s ease-in-out infinite;
+}
+
+/* Slightly offset animation durations for layered effect */
+.ring-1-style::before { animation-duration: 4.5s; }
+.ring-2-style::before { animation-duration: 5.2s; animation-delay: 0.6s; }
+.ring-3-style::before { animation-duration: 6s; animation-delay: 1.2s; }
+
+/* Chromatic bloom layers on sphere to simulate lens/aberration */
+.central-sphere::before,
+.central-sphere::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.central-sphere::before {
+  /* soft bloom */
+  background: radial-gradient(circle at 35% 35%, rgba(192,132,252,0.45), rgba(124,58,237,0.08));
+  filter: blur(10px);
+  mix-blend-mode: screen;
+  opacity: 0.72;
+  transform: scale(1.03);
+  animation: bloom-pulse 3.5s ease-in-out infinite;
+}
+
+.central-sphere::after {
+  /* chromatic fringe */
+  background: radial-gradient(circle at 30% 30%, rgba(255,100,200,0.12), transparent 40%);
+  filter: blur(4px) saturate(1.05);
+  mix-blend-mode: screen;
+  transform: translate(1px, -1px) scale(1.01);
+  opacity: 0.7;
+}
+
+@keyframes bloom-pulse {
+  0%,100% { opacity: 0.75; transform: scale(1.03); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+/* --- Global Map Sphere (globe) styles --- */
+.globe-wrapper {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.globe-scene {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.globe-svg {
+  width: 220px;
+  height: 220px;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+}
+
+.globe-rotate {
+  transform-origin: 100px 100px;
+  animation: globe-spin 12s linear infinite;
+}
+
+@keyframes globe-spin {
+  0% { transform: rotateY(0deg) rotateX(6deg); }
+  100% { transform: rotateY(360deg) rotateX(6deg); }
+}
+
+.beacons .beacon { filter: drop-shadow(0 6px 12px rgba(7,89,133,0.16)); }
+
+.beacon { transform-origin: 100px 100px; animation: beacon-pulse 2.8s ease-in-out infinite; }
+
+@keyframes beacon-pulse {
+  0% { transform: scale(0.9); opacity: 0.9; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.9; }
+}
+
+.globe-shadow {
+  position: absolute;
+  width: 160px;
+  height: 28px;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse at center, rgba(2,6,23,0.45), transparent 60%);
+  filter: blur(8px);
+  opacity: 0.9;
+}
+
+/* subtle atmospheric sweep */
+@keyframes atmosphere-sweep {
+  0% { opacity: 0.15; transform: translateX(-60%); }
+  50% { opacity: 0.5; transform: translateX(60%); }
+  100% { opacity: 0.15; transform: translateX(160%); }
+}
+.globe-svg::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  background: linear-gradient(90deg, transparent, rgba(96,165,250,0.06), transparent);
+  animation: atmosphere-sweep 8s ease-in-out infinite;
+}
+
+/* Screenshot-specific globe styles */
+.screenshot-globe-wrapper {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corner-left, .corner-right {
+  position: absolute;
+  width: 18px;
+  height: 48px;
+  border-left: 2px solid #07d0d6;
+  border-top: 2px solid #fff;
+  opacity: 0.95;
+}
+.corner-left { left: 8px; top: 14px; transform: rotate(0deg); }
+.corner-right { right: 8px; bottom: 14px; transform: rotate(180deg); }
+
+.screenshot-globe-svg {
+  width: 280px;
+  height: 280px;
+  border-radius: 9999px;
+  overflow: visible;
+}
+
+.globe-rotate { transform-origin: 100px 100px; animation: globe-spin 18s linear infinite; }
+
+.scan-lines { mix-blend-mode: screen; }
+
+.screenshot-globe-shadow { position:absolute; bottom:10px; width:200px; height:32px; background: radial-gradient(ellipse at center, rgba(0,0,0,0.65), transparent 60%); filter: blur(8px); }
+
+/* More pronounced atmosphere sweep for the screenshot look */
+@keyframes atmosphere-sweep-strong {
+  0% { opacity: 0.05; transform: translateX(-80%); }
+  50% { opacity: 0.35; transform: translateX(20%); }
+  100% { opacity: 0.05; transform: translateX(120%); }
+}
+.screenshot-globe-svg::after { content: ''; position:absolute; left:0; top:0; right:0; bottom:0; pointer-events:none; background: linear-gradient(90deg, transparent, rgba(0,255,230,0.04), transparent); animation: atmosphere-sweep-strong 6.5s ease-in-out infinite; }
+
+/* tiny dotted points flicker */
+@keyframes dot-flicker { 0% { opacity: 0.5 } 50% { opacity: 1 } 100% { opacity: 0.5 } }
+.screenshot-globe-svg circle[fill="#001f"] { animation: dot-flicker 3.4s linear infinite; }
+
+/* GLOBAL: Disable animations inside the SessionSplash when "no-animations" is applied */
+.no-animations, .no-animations * , .no-animations *::before, .no-animations *::after {
+  -webkit-animation: none !important;
+  animation: none !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/* Data Stream SVG */
+.data-stream-svg {
+  filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.3));
+}
+
+/* Sphere wrapper provides perspective for 3D ring rotation */
+.sphere-wrapper {
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+}
+
+/* Staggered animation delays for SVG lines and packets (8 columns) */
+.data-stream-svg g:nth-of-type(1) .flowing-line { animation-delay: 0s; }
+.data-stream-svg g:nth-of-type(2) .flowing-line { animation-delay: 0.1s; }
+.data-stream-svg g:nth-of-type(3) .flowing-line { animation-delay: 0.2s; }
+.data-stream-svg g:nth-of-type(4) .flowing-line { animation-delay: 0.3s; }
+.data-stream-svg g:nth-of-type(5) .flowing-line { animation-delay: 0.4s; }
+.data-stream-svg g:nth-of-type(6) .flowing-line { animation-delay: 0.5s; }
+.data-stream-svg g:nth-of-type(7) .flowing-line { animation-delay: 0.6s; }
+.data-stream-svg g:nth-of-type(8) .flowing-line { animation-delay: 0.7s; }
+
+.data-stream-svg g:nth-of-type(1) .data-packet { animation-delay: 0s; animation-duration: 2s; }
+.data-stream-svg g:nth-of-type(2) .data-packet { animation-delay: 0.15s; animation-duration: 2.1s; }
+.data-stream-svg g:nth-of-type(3) .data-packet { animation-delay: 0.3s; animation-duration: 2.2s; }
+.data-stream-svg g:nth-of-type(4) .data-packet { animation-delay: 0.45s; animation-duration: 2.3s; }
+.data-stream-svg g:nth-of-type(5) .data-packet { animation-delay: 0.6s; animation-duration: 2.4s; }
+.data-stream-svg g:nth-of-type(6) .data-packet { animation-delay: 0.75s; animation-duration: 2.5s; }
+.data-stream-svg g:nth-of-type(7) .data-packet { animation-delay: 0.9s; animation-duration: 2.6s; }
+.data-stream-svg g:nth-of-type(8) .data-packet { animation-delay: 1.05s; animation-duration: 2.7s; }
+
+/* Predefined particle placements to avoid inline styles (20 particles) */
+.particle0 { left: 6%; top: 14%; width: 2px; height: 2px; animation-delay: 0.2s; animation-duration: 2.1s; }
+.particle1 { left: 18%; top: 22%; width: 1.5px; height: 1.5px; animation-delay: 0.5s; animation-duration: 1.8s; }
+.particle2 { left: 30%; top: 8%; width: 2.5px; height: 2.5px; animation-delay: 0.1s; animation-duration: 2.4s; }
+.particle3 { left: 42%; top: 64%; width: 1.2px; height: 1.2px; animation-delay: 0.4s; animation-duration: 1.9s; }
+.particle4 { left: 54%; top: 40%; width: 1.8px; height: 1.8px; animation-delay: 0.25s; animation-duration: 2.2s; }
+.particle5 { left: 66%; top: 12%; width: 2px; height: 2px; animation-delay: 0.35s; animation-duration: 2.0s; }
+.particle6 { left: 78%; top: 28%; width: 1.6px; height: 1.6px; animation-delay: 0.6s; animation-duration: 2.3s; }
+.particle7 { left: 88%; top: 52%; width: 2.2px; height: 2.2px; animation-delay: 0.15s; animation-duration: 2.6s; }
+.particle8 { left: 12%; top: 72%; width: 1.4px; height: 1.4px; animation-delay: 0.7s; animation-duration: 1.7s; }
+.particle9 { left: 24%; top: 56%; width: 1.9px; height: 1.9px; animation-delay: 0.3s; animation-duration: 2.0s; }
+.particle10 { left: 36%; top: 36%; width: 1.3px; height: 1.3px; animation-delay: 0.45s; animation-duration: 1.8s; }
+.particle11 { left: 48%; top: 18%; width: 1.7px; height: 1.7px; animation-delay: 0.2s; animation-duration: 2.1s; }
+.particle12 { left: 60%; top: 62%; width: 2.4px; height: 2.4px; animation-delay: 0.55s; animation-duration: 2.5s; }
+.particle13 { left: 72%; top: 44%; width: 1.1px; height: 1.1px; animation-delay: 0.65s; animation-duration: 1.9s; }
+.particle14 { left: 84%; top: 24%; width: 1.6px; height: 1.6px; animation-delay: 0.22s; animation-duration: 2.2s; }
+.particle15 { left: 16%; top: 8%; width: 2px; height: 2px; animation-delay: 0.18s; animation-duration: 2.0s; }
+.particle16 { left: 28%; top: 48%; width: 1.2px; height: 1.2px; animation-delay: 0.4s; animation-duration: 1.85s; }
+.particle17 { left: 40%; top: 28%; width: 1.9px; height: 1.9px; animation-delay: 0.78s; animation-duration: 2.35s; }
+.particle18 { left: 52%; top: 66%; width: 1.5px; height: 1.5px; animation-delay: 0.32s; animation-duration: 1.95s; }
+.particle19 { left: 68%; top: 72%; width: 1.4px; height: 1.4px; animation-delay: 0.58s; animation-duration: 2.05s; }
+
+/* Improve ring visibility and make them orbit the sphere with tilt */
+@keyframes ring-orbit-1 {
+  0% { transform: rotateX(60deg) rotateZ(0deg); }
+  100% { transform: rotateX(60deg) rotateZ(360deg); }
+}
+
+@keyframes ring-orbit-2 {
+  0% { transform: rotateX(40deg) rotateZ(0deg); }
+  100% { transform: rotateX(40deg) rotateZ(-360deg); }
+}
+
+@keyframes ring-orbit-3 {
+  0% { transform: rotateX(20deg) rotateZ(0deg); }
+  100% { transform: rotateX(20deg) rotateZ(360deg); }
+}
+
+.glass-ring-1 {
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  animation: ring-orbit-1 8s linear infinite;
+  z-index: 5;
+}
+
+.glass-ring-2 {
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  animation: ring-orbit-2 12s linear infinite;
+  z-index: 4;
+}
+
+.glass-ring-3 {
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  animation: ring-orbit-3 16s linear infinite;
+  z-index: 3;
+}
+
+/* Make borders and glows stronger so rings are clearly visible */
+.ring-1-style {
+  border-width: 4px;
+  border-color: rgba(192,132,252,0.9);
+}
+
+.ring-2-style {
+  border-width: 4px;
+  border-color: rgba(168,85,247,0.85);
+}
+
+.ring-3-style {
+  border-width: 4px;
+  border-color: rgba(124,58,237,0.8);
+}
+
+.central-sphere {
+  z-index: 10;
+}
+
+.sphere-aura {
+  z-index: 6;
+  filter: blur(6px);
+}
+
+/* Creative SVG wrapper sizing and sparkle helpers */
+.sphere-svg-wrap {
+  width: 320px;
+  height: 320px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+.sparkle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 0%, #c084fc 40%, transparent 100%);
+  filter: drop-shadow(0 0 6px rgba(192,132,252,0.8));
+  opacity: 0.95;
+  animation: sparkle-float 3.5s ease-in-out infinite;
+}
+
+.sparkle-1 { left: 18%; top: 28%; animation-delay: 0s; }
+.sparkle-2 { left: 78%; top: 24%; animation-delay: 0.7s; }
+.sparkle-3 { left: 60%; top: 72%; animation-delay: 1.3s; }
+
+@keyframes sparkle-float {
+  0% { transform: translateY(0) scale(0.9); opacity: 0.7; }
+  50% { transform: translateY(-8px) scale(1.15); opacity: 1; }
+  100% { transform: translateY(0) scale(0.95); opacity: 0.75; }
+}
+
+/* SVG ring stroke styles and subtle animation */
+.svg-rings { transform-origin: 50% 50%; }
+.svg-ring-outer, .svg-ring-mid, .svg-ring-inner {
+  fill: none;
+  stroke: rgba(192,132,252,0.65);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  opacity: 0.9;
+  stroke-dasharray: 6 8;
+  animation: ring-stroke 6s linear infinite;
+}
+.svg-ring-mid { stroke: rgba(168,85,247,0.6); stroke-dasharray: 8 6; animation-duration: 8s; }
+.svg-ring-inner { stroke: rgba(124,58,237,0.5); stroke-dasharray: 10 4; animation-duration: 10s; }
+
+@keyframes ring-stroke {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -60; }
+}
+
+/* Make the SVG drop shadow stronger on modern browsers */
+.drop-shadow-3xl { filter: drop-shadow(0 8px 40px rgba(108, 21, 161, 0.35)); }
+
+/* Responsive caps to keep rings visible on small screens */
+@media (max-width: 640px) {
+  .sphere-svg-wrap { width: 220px; height: 220px; }
+  .ring-3-container { width: 300px; height: 300px; }
+}
+
+/* Ring 3 Container */
+.ring-3-container {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Ring Reflections */
+.ring-1-reflection {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, transparent 50%, rgba(0, 0, 0, 0.15) 100%);
+  pointer-events: none;
+}
+
+.ring-2-reflection {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, transparent 50%, rgba(0, 0, 0, 0.12) 100%);
+  pointer-events: none;
+}
+
+.ring-3-reflection {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.08) 100%);
+  pointer-events: none;
+}
+
+/* ---------------------- Security Shield Graphic ---------------------- */
+@keyframes shield-pulse {
+  0% { transform: translateY(0) scale(1); opacity: 0.9; }
+  50% { transform: translateY(-3px) scale(1.02); opacity: 1; }
+  100% { transform: translateY(0) scale(1); opacity: 0.9; }
+}
+
+@keyframes shield-scan {
+  0% { stroke-dashoffset: 100; opacity: 0.35 }
+  50% { stroke-dashoffset: 20; opacity: 0.75 }
+  100% { stroke-dashoffset: -40; opacity: 0.35 }
+}
+
+.security-shield {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* enlarge the shield slightly so it encloses the inner ring but stays below the middle ring */
+  width: min(56vw, 720px);
+  height: min(56vw, 720px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.shield-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: drop-shadow(0 20px 56px rgba(6,182,212,0.14));
+}
+
+.shield-core {
+  fill: linear-gradient(180deg, rgba(6,182,212,0.06), rgba(2,6,23,0.2));
+  mix-blend-mode: screen;
+}
+
+.shield-outline {
+  fill: none;
+  stroke: rgba(6,182,212,0.9);
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.95;
+}
+
+.shield-accent {
+  fill: none;
+  stroke: rgba(34,211,238,0.75);
+  stroke-width: 1.2;
+  stroke-dasharray: 8 6;
+  animation: shield-scan 4.5s linear infinite;
+}
+
+.shield-glow {
+  position: absolute;
+  inset: -8%;
+  border-radius: 50%;
+  filter: blur(8px) saturate(1.05);
+  background: radial-gradient(circle at 35% 25%, rgba(6,182,212,0.16), transparent 36%);
+  opacity: 0.66;
+  mix-blend-mode: screen;
+  animation: shield-pulse 3.6s ease-in-out infinite;
+}
+
+/* small lock/checkmark inside shield */
+.shield-lock {
+  stroke: rgba(0,0,0,0.9);
+  stroke-width: 1.5;
+  fill: none;
+  opacity: 0.95;
+}
+
+/* Subtle emblem inside the shield (thin ring + chevron) */
+.shield-emblem {
+  stroke: rgba(6,182,212,0.95);
+  fill: rgba(6,182,212,0.12);
+  stroke-width: 0.9;
+  stroke-linejoin: round;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 8px rgba(6,182,212,0.45)) drop-shadow(0 0 18px rgba(34,211,238,0.12));
+}
+
+@keyframes emblem-pulse {
+  0% { opacity: 0.75; transform: scale(0.98); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 0.75; transform: scale(0.98); }
+}
+
+.shield-emblem { animation: emblem-pulse 3.6s ease-in-out infinite; transform-origin: 50% 50%; }
+
+/* stronger glow transient to enhance the star's presence */
+@keyframes emblem-glow {
+  0% { filter: drop-shadow(0 0 6px rgba(6,182,212,0.3)) drop-shadow(0 0 14px rgba(34,211,238,0.08)); }
+  50% { filter: drop-shadow(0 0 12px rgba(6,182,212,0.65)) drop-shadow(0 0 26px rgba(34,211,238,0.18)); }
+  100% { filter: drop-shadow(0 0 6px rgba(6,182,212,0.3)) drop-shadow(0 0 14px rgba(34,211,238,0.08)); }
+}
+
+.shield-emblem { animation: emblem-pulse 3.6s ease-in-out infinite, emblem-glow 3.6s ease-in-out infinite; }
+
+/* When user toggles .no-animations this will disable the shield animation too */
+
+/* ------------------ Shield concentric ring animations ------------------ */
+@keyframes shield-ring-rotate {
+  0% { transform: rotate(0deg) translateZ(0); }
+  100% { transform: rotate(360deg) translateZ(0); }
+}
+
+@keyframes shield-ring-pulse {
+  0% { stroke-opacity: 0.25; stroke-width: 1; }
+  50% { stroke-opacity: 0.9; stroke-width: 2.4; }
+  100% { stroke-opacity: 0.25; stroke-width: 1; }
+}
+
+.shield-rings {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.shield-ring {
+  fill: none;
+  stroke: rgba(34,211,238,0.62);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-dasharray: 6 6;
+  opacity: 1;
+  transform-origin: 50% 50%;
+  animation: shield-ring-pulse 3.8s ease-in-out infinite;
+}
+
+.shield-ring-1 { stroke: rgba(34,211,238,0.7); animation-duration: 4.2s; }
+.shield-ring-2 { stroke: rgba(6,182,212,0.62); animation-duration: 5s; animation-delay: 0.35s; transform: rotate(22deg); }
+.shield-ring-3 { stroke: rgba(8,129,150,0.52); animation-duration: 6s; animation-delay: 0.6s; transform: rotate(-18deg); }
+
+/* subtle continuous rotation on the rings container for a lane effect */
+.shield-rings { animation: shield-ring-rotate 22s linear infinite; }
+
+/* ensure no-animations disables these */
+.no-animations .shield-ring, .no-animations .shield-rings { animation: none !important; }
+
+/* translucent panel overlay used to let the shield behind show through */
+.panel-translucent {
+  /* fully transparent panel: let the animated shield show through while keeping text readable */
+  background: rgba(2, 6, 23, 0) !important; /* fully transparent */
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  mix-blend-mode: normal;
+  /* subtle inner backdrop for very small text readability on busy backgrounds */
+  color: inherit;
+}
+
+/* slightly stronger translucent variant for mobile small screens */
+@media (max-width: 640px) {
+  .panel-translucent { background: rgba(2,6,23,0) !important; -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+
+/* Position the failure panel just below the shield tip */
+.failure-position {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* place below the shield which is centered at 50% with half-height = min(52vw,680px)/2 */
+  top: calc(50% + (min(56vw, 720px) / 2) + 16px);
+  width: min(54vw, 640px);
+  z-index: 12;
+}
+
+@media (max-width: 640px) {
+  .failure-position {
+    top: calc(50% + (min(60vw, 460px) / 2) + 10px);
+    width: min(86vw, 320px);
+  }
+}
+
+/* Boot sequence indicator inside the failure panel */
+.boot-indicator {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.boot-spinner {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid rgba(34,211,238,0.12);
+  border-top-color: rgba(34,211,238,0.95);
+  animation: spin-boot 1s linear infinite;
+  box-shadow: 0 0 10px rgba(34,211,238,0.14);
+}
+
+@keyframes spin-boot {
+  to { transform: rotate(360deg); }
+}
+
+/* Access Granted state */
+.access-granted {
+  background: linear-gradient(90deg, rgba(6,182,212,0.08), rgba(34,211,238,0.06));
+  border: 1px solid rgba(34,211,238,0.12);
+  color: #c8fff7;
+  padding: 18px 22px;
+  border-radius: 10px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 30px rgba(6,182,212,0.08), inset 0 -2px 6px rgba(0,0,0,0.12);
+  animation: access-fade 1s ease-in-out;
+}
+
+.access-granted .check {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(34,211,238,0.95);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #022228;
+  font-weight: 800;
+  box-shadow: 0 6px 20px rgba(34,211,238,0.22);
+}
+
+@keyframes access-fade {
+  0% { transform: translateY(8px); opacity: 0; }
+  60% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* Boot message small caption */
+.boot-caption {
+  font-size: 12px;
+  color: rgba(255,255,255,0.75);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
+}
+

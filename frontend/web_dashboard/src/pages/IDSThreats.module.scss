@@ -1,0 +1,369 @@
+/**
+ * IDS Threats Dashboard Styles
+ */
+
+.container {
+  padding: 2rem 0;
+}
+
+// ============================================================================
+// METRICS CARDS
+// ============================================================================
+
+.metricCard {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  h4 {
+    color: #212529;
+    font-weight: 600;
+  }
+}
+
+// ============================================================================
+// ALERT TIMELINE
+// ============================================================================
+
+.alertTimeline {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+
+  .card-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #212529;
+  }
+}
+
+// ============================================================================
+// ALERT LIST
+// ============================================================================
+
+.alertList {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  max-height: 600px;
+  overflow-y: auto;
+
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+  }
+
+  .controls {
+    background-color: #fafbfc;
+  }
+
+  .alertItems {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+
+  .alertItem {
+    padding: 1rem;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #f8f9fa;
+      border-left-color: #0d6efd;
+    }
+
+    &.selected {
+      background-color: #e7f1ff;
+      border-left-color: #0d6efd;
+    }
+
+    .alertName {
+      font-weight: 600;
+      color: #212529;
+      margin-bottom: 0.25rem;
+    }
+
+    .alertDetails {
+      font-size: 0.85rem;
+    }
+
+    .timestamp {
+      font-size: 0.75rem;
+      color: #6c757d;
+      margin-top: 0.25rem;
+    }
+  }
+}
+
+// ============================================================================
+// ALERT MODAL
+// ============================================================================
+
+.alertModal {
+  .modal-header {
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  .modal-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+}
+
+.modalBody {
+  max-height: 600px;
+  overflow-y: auto;
+
+  .infoGroup {
+    margin-bottom: 1.5rem;
+
+    > span {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    code {
+      background-color: #f8f9fa;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.85rem;
+      color: #dc3545;
+      display: inline-block;
+      word-break: break-all;
+    }
+  }
+
+  .flowInfo {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    h6 {
+      font-weight: 600;
+      color: #212529;
+    }
+  }
+
+  .flowDetail {
+    margin-bottom: 0.75rem;
+
+    span {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+    }
+
+    code {
+      background-color: #fff;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.85rem;
+      color: #0d6efd;
+      display: inline-block;
+    }
+  }
+
+  .recommendedActions {
+    background-color: #fff3cd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-left: 3px solid #ffc107;
+
+    h6 {
+      font-weight: 600;
+      color: #212529;
+    }
+  }
+
+  .reasonsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0.5rem 0 0.5rem 1.5rem;
+      position: relative;
+      color: #495057;
+      font-size: 0.95rem;
+
+      &:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: #0d6efd;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .featureContributions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .featureBar {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0.5rem;
+    align-items: center;
+
+    span {
+      font-size: 0.9rem;
+      text-align: right;
+    }
+  }
+
+  .narrative {
+    background-color: #e7f1ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-left: 3px solid #0d6efd;
+    margin-top: 1.5rem;
+
+    h6 {
+      font-weight: 600;
+      color: #0d6efd;
+    }
+
+    p {
+      color: #495057;
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+  }
+}
+
+// ============================================================================
+// MODEL STATUS
+// ============================================================================
+
+.modelStatus {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+  }
+
+  .list-group-item {
+    padding: 1rem;
+    border-color: #e9ecef;
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #f8f9fa;
+      border-left-color: #ffc107;
+    }
+
+    .modelName {
+      font-weight: 600;
+      color: #212529;
+      margin-bottom: 0.25rem;
+    }
+  }
+}
+
+// ============================================================================
+// THREAT DISTRIBUTION
+// ============================================================================
+
+.threatDistribution {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+  }
+}
+
+// ============================================================================
+// RESPONSIVE
+// ============================================================================
+
+@media (max-width: 768px) {
+  .modalBody {
+    .featureBar {
+      grid-template-columns: 100px 1fr;
+    }
+
+    .infoGroup {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .alertList {
+    max-height: none;
+
+    .alertItems {
+      max-height: 400px;
+    }
+  }
+}
+
+// ============================================================================
+// SCROLLBAR STYLING
+// ============================================================================
+
+.alertList::-webkit-scrollbar,
+.modalBody::-webkit-scrollbar {
+  width: 8px;
+}
+
+.alertList::-webkit-scrollbar-track,
+.modalBody::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.alertList::-webkit-scrollbar-thumb,
+.modalBody::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+
+  &:hover {
+    background: #555;
+  }
+}

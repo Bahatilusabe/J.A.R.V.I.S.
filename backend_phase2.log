@@ -1,0 +1,26 @@
+MindSpore not available for RL - using template-based policies
+WARNING: No IPv4 address found on en1 !
+WARNING:scapy.runtime:No IPv4 address found on en1 !
+WARNING: No IPv4 address found on en2 !
+WARNING:scapy.runtime:No IPv4 address found on en2 !
+WARNING: more No IPv4 address found on bridge0 !
+WARNING:scapy.runtime:more No IPv4 address found on bridge0 !
+/Users/mac/Desktop/J.A.R.V.I.S./.venv/lib/python3.12/site-packages/scapy/layers/ipsec.py:512: CryptographyDeprecationWarning: TripleDES has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.TripleDES and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  cipher=algorithms.TripleDES,
+/Users/mac/Desktop/J.A.R.V.I.S./.venv/lib/python3.12/site-packages/scapy/layers/ipsec.py:516: CryptographyDeprecationWarning: TripleDES has been moved to cryptography.hazmat.decrepit.ciphers.algorithms.TripleDES and will be removed from cryptography.hazmat.primitives.ciphers.algorithms in 48.0.0.
+  cipher=algorithms.TripleDES,
+INFO:backend.api.server:CORS middleware configured for origins: ['http://localhost:5173']
+INFO:     Started server process [15848]
+INFO:     Waiting for application startup.
+INFO:backend.core.pqcrypto.session_storage:Using in-memory session store
+INFO:backend.api.server:PQC session store initialized: InMemorySessionStore
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:backend.api.routes.forensics:Forensics: retrieved stats
+INFO:     127.0.0.1:51866 - "GET /api/forensics/stats HTTP/1.1" 200 OK
+INFO:backend.api.routes.forensics:Forensics: retrieved 3 evidence items (filtered: 3 total)
+INFO:     127.0.0.1:51869 - "GET /api/forensics/evidence HTTP/1.1" 200 OK
+INFO:backend.api.routes.forensics:Forensics: analyzed evidence EV-001 with cryptographic (risk: 1.5)
+INFO:     127.0.0.1:51872 - "POST /api/forensics/evidence/analyze HTTP/1.1" 200 OK
+INFO:backend.api.routes.forensics:Forensics: analyzed evidence EV-002 with malware (risk: 8.9)
+INFO:     127.0.0.1:51875 - "POST /api/forensics/evidence/analyze HTTP/1.1" 200 OK

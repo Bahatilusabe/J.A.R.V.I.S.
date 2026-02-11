@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install minimal build deps for potential wheels
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    gcc \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /workspace
+
+# Copy only requirements first for better caching
+COPY backend/requirements.txt /workspace/backend/requirements.txt
+
+# Install Python deps (including pandas)
+RUN pip install --no-cache-dir -r /workspace/backend/requirements.txt
+
+# Copy the repository
+COPY . /workspace
+
+WORKDIR /workspace
+
+# Default command runs the integration tests for dataset loader
+CMD ["/bin/bash", "-lc", "python3 -m pytest -q backend/tests/integration/test_dataset_loader_integration.py"]

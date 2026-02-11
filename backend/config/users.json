@@ -1,0 +1,10 @@
+{
+  "acer": {
+    "password": "pbkdf2$100000$W027ITuAH7HdQMW/TmnjAA==$HbpfJwgIs92BmDQ31zrpgbb33xULl6WX22vMQuSfAk4=",
+    "role": "admin"
+  },
+  "bahati": {
+    "password": "pbkdf2$100000$dQZF9E5yc54/CShXI0At8Q==$BUZtvM0fgiuQ/Nzo6MYalQ7+ehQClEt2PdvTOXEf1S4=",
+    "role": "admin"
+  }
+}

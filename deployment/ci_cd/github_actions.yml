@@ -1,0 +1,44 @@
+name: CI
+
+# Triggers: regular pushes, PRs, and allow manual runs for the integration job
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build-lite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install minimal deps and run tests
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest ahocorapy scapy
+          pytest backend/tests
+
+  build-integration:
+    runs-on: ubuntu-latest
+    # Only run integration on pushes to main or when manually dispatched
+    if: |
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_dispatch')
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install system build tools
+        run: |
+          sudo apt-get update && sudo apt-get install -y build-essential python3-dev libssl-dev libffi-dev pkg-config rustc
+      - name: Install integration deps and run tests
+        run: |
+          python -m pip install --upgrade pip wheel setuptools
+          # Install cryptography and PyJWT (needed for RS256/JWKS tests).
+          # Ensure a build toolchain is available (rustc/pkgs installed above) so cryptography can build if needed.
+          python -m pip install "PyJWT>=2.6.0" cryptography ahocorapy numpy scikit-learn joblib
+          # try to install the faster C-extension but do not fail the job if it cannot be built
+          python -m pip install pyahocorasick || true
+          pytest backend/tests

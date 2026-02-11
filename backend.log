@@ -1,0 +1,12 @@
+MindSpore not available for RL - using template-based policies
+INFO:backend.api.server:CORS middleware configured for origins: ['http://localhost:5173']
+INFO:     Started server process [5353]
+INFO:     Waiting for application startup.
+INFO:backend.core.pqcrypto.session_storage:Using in-memory session store
+INFO:backend.api.server:PQC session store initialized: InMemorySessionStore
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50287 - "POST /auth/login HTTP/1.1" 404 Not Found
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/openapi/utils.py:242: UserWarning: Duplicate Operation ID trigger_node_sync_api_federation_nodes__node_id__sync_post for function trigger_node_sync at /Users/mac/Desktop/J.A.R.V.I.S./backend/api/routes/federation.py
+  warnings.warn(message, stacklevel=1)
+INFO:     127.0.0.1:50294 - "GET /openapi.json HTTP/1.1" 200 OK

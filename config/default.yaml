@@ -1,0 +1,15 @@
+# Core default configuration for JARVIS
+telemetry:
+  enabled: true
+  url: "http://localhost:8001/telemetry/events"
+
+dpi:
+  interface: "eth0"
+  snaplen: 65535
+  ascend:
+    enabled: false
+    device_id: 0
+
+backend:
+  host: 0.0.0.0
+  port: 8000
